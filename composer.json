@@ -1,0 +1,20 @@
+{
+    "name": "mjbezer/bb-boleto",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mjbezer\\BBBoleto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcelo Bezerra",
+            "email": "marcelo.bezerra@criarenet.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": { 
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    }
+}
